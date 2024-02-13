@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+        rel="stylesheet"/>
+    <title>Timpla</title>
+</head>
+
+<body>
+
+    <header>
+            <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t1.15752-9/426886727_633044775604812_1788567807468411378_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF6i-kTNDY4e_nYbZ8BtP-vhPQAjJaecv-E9ACMlp5y_6bOC2D1o8EdA1ymQNDsm9AQmX5BY_k3i23SxTXtiGOz&_nc_ohc=Yp3_KOAQGdsAX_9jVb8&_nc_ht=scontent.fpag2-1.fna&oh=03_AdTe7TpkDw47oonA0Kr-pKgW_TFknZZwR7Ky7Me4Ee-l9w&oe=65F28811">
+            <h1>Timpla</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-icon" onclick="toggleNav()">
+            &#9776; 
+        </div>
+
+        <script>
+            function toggleNav() {
+                var nav = document.querySelector('nav');
+                nav.classList.toggle('show');
+            }
+        </script>
+    </header>
+
+    <div class="content">
+        <h2><em>Timpla</em></h2>
+        <p>Coffee Crafted with Love, Served with a Smile - Timpla, Your Happy Place.</p>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="menu-header">
+            <h3>Menu</h3>
+            <h4>Timpla</h4>
+        </div>
+        <div class="menu-content">
+            <div class="brewed-coffees">
+                <div class="brewed-coffees-image">
+                    <img src="https://static.vecteezy.com/system/resources/previews/026/844/952/original/isolated-iced-americano-coffee-on-the-black-cup-clipart-on-transparent-background-coffee-cup-refreshing-aromatic-brewed-coffee-cup-isolated-clipart-free-isolated-black-coffee-cup-free-png.png" alt="">
+                </div>
+                <div class="brewed-coffees-body">
+                    <h2>Coffee Brewed</h2>
+                    <label>Our brewed coffee provides a smooth, satisfying taste, perfect for those who appreciate the pure essence of coffee.</label>
+                </div>
+            </div>
+            <div class="espresso-coffees">
+                <div class="espresso-coffees-image">
+                    <img src="https://129590606.cdn6.editmysite.com/uploads/1/2/9/5/129590606/s105604350116247079_p248_i5_w1875.png" alt="">
+                </div>
+                <div class="espresso-coffees-body">
+                    <h2>Espresso</h2>
+                    <label>Our Espresso, crafted from beans, is bold, intense, and provides a rich, robust flavor perfect for coffee lovers on the go.</label>
+                </div>
+            </div>
+            <div class="blend-coffees">
+                <div class="blend-coffees-image">
+                    <img src="https://www.saq.com/media/wysiwyg/inspirations/avm/cappuccino-glace-ec.png" alt="">
+                </div>
+                <div class="blend-coffees-body">
+                    <h2>Blended Beverage</h2>
+                    <label>Our blended drinks are ideal for rich smoothies and refreshing frappuccinos because they have creamy textures and mouthwatering flavors.</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="shop" id="shop">
+        <div class="shop-header">
+            <h3>Shop</h3>
+            <h4>Timpla</h4>
+        </div>
+        <div class="shop-box">
+            <div class="item-1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://www.starbucksathome.com/ph/sites/default/files/styles/nutrition_instruction_image/public/2021-02/CaramelMacchiato_LongShadow.png?itok=eI0Fm38a">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">₱160.00</label>
+                        <h3>Caramel Macchiato</h3>
+                        <label>Velvety caramel dance, espresso bliss</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://static.vecteezy.com/system/resources/previews/028/086/319/original/cup-of-cappuccino-coffee-isolated-on-transparent-background-file-cut-out-ai-generated-png.png">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">₱145.00</label>
+                        <h3>Cappuccino</h3>
+                        <label>Rich espresso, frothy indulgence, perfection.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://www.starbucksathome.com/gb/sites/default/files/styles/rdp_banner_image/public/2021-04/10032021_BAB_CAFE_AU_LAIT_CS-min.png?itok=gmFPY3be">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">₱135.00</label>
+                        <h3>Caffe Misto</h3>
+                        <label>Smooth coffee, creamy harmony, delightful</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://www.starbucks.com.au/assets/uploads/2023/08/sbx20190410-28957-vanillasweetcreamnitrocoldbrew-onwhite-corelib-srgb-1.png">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">₱140.00</label>
+                        <h3>Vanilla Cold Brew</h3>
+                        <label>Iced bliss, vanilla magic, refreshing</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://www.starbucks.com.au/assets/uploads/2023/08/sbx20190617-33218-caffemocha-onwhite-corelib-g7op.png">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">₱170.00</label>
+                        <h3>Caffe Mocha</h3>
+                        <label>Decadent chocolate, rich espresso delight</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://www.starbucks.com.au/assets/uploads/2023/08/sbx20190528-30613-strawberryfrapp-onwhite-corelib-srgb.png">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">₱120.00</label>
+                        <h3>Strawberries & Cream</h3>
+                        <label>Luscious berries, creamy dream, indulgent</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t1.15752-9/427887838_7121503521304380_6176121376264166449_n.png?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHhbQTXvbbT_-PcWlWvLM8J-WlWRmA-jQ75aVZGYD6NDrtsgMUbpcPBRJFmz69lmgDuP51b8_XYIWNt6LA0EsRk&_nc_ohc=0KsTTqAcxdsAX86O_Ol&_nc_oc=AQnjoFpWGqSaWtge3fcYbv_l90ppk8KB02YHSdObhQILd_Eb6dWR602NYDer4m6DsIk&_nc_ht=scontent.fpag2-1.fna&oh=03_AdQ4Db8H9mvYsT8opHgCAdT_wvqHH94UngFNkQMEu1UKUw&oe=65F2B698">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">₱130.00</label>
+                        <h3>Chocolate Chip Cream</h3>
+                        <label>Choco bliss, creamy delight, perfection</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-8">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t1.15752-9/426721505_1068287644387789_5379889773220772182_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHP5GTyLW9nvFyKyebiPH6xl6sdRuSU4amXqx1G5JThqXe6uuQnbNGSvGjmDA7xrZqner44GNLrPEbq44VUJCDb&_nc_ohc=wvEvYbwiZNYAX-uIaef&_nc_ht=scontent.fpag2-1.fna&oh=03_AdQlZWtM7IwexVLT_ZGHxmZGMsq9K2oj0Q0d7cxNWTelPg&oe=65F2B7FB">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">₱120.00</label>
+                        <h3>Cookies & Cream</h3>
+                        <label>Cookies crumble, cream delight, indulgence</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="contact-box">
+            <div class="contact-image">
+                <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t1.15752-9/426886727_633044775604812_1788567807468411378_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF6i-kTNDY4e_nYbZ8BtP-vhPQAjJaecv-E9ACMlp5y_6bOC2D1o8EdA1ymQNDsm9AQmX5BY_k3i23SxTXtiGOz&_nc_ohc=Yp3_KOAQGdsAX_9jVb8&_nc_ht=scontent.fpag2-1.fna&oh=03_AdTwmrulvfelbabLCCpBH3ktcPT3-i-bp5PpKnfUD5Maog&oe=65F2C051">
+            </div>
+        </div>
+        <div class="contact-box">
+            <div class="contact-body">
+                    <h2>Contact Us:</h2>
+                    <div class="social-media">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="ri-mail-line"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="copyright">
+                <label>Copyright &copy; 2024</label>
+            </div>
+            <div class="brand">
+                <label><span>Timpla</span>-Ana Bulalaque</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
